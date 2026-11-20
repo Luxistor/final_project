@@ -1,0 +1,106 @@
+INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detected. Your current license is active and will expire on 10-sep-2027.
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Fri Nov 20 09:57:53 2026
+# Process ID         : 35024
+# Current directory  : C:/Users/addis/Downloads/DLD Final/final_project
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent26908 C:\Users\addis\Downloads\DLD Final\final_project\final_project.xpr
+# Log file           : C:/Users/addis/Downloads/DLD Final/final_project/vivado.log
+# Journal file       : C:/Users/addis/Downloads/DLD Final/final_project\vivado.jou
+# Running On         : Addis-Zenbook
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen AI 9 HX 370 w/ Radeon 890M           
+# CPU Frequency      : 1996 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 24
+# Host memory        : 33413 MB
+# Swap memory        : 7516 MB
+# Total Virtual      : 40929 MB
+# Available Virtual  : 11072 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/addis/Downloads/DLD Final/final_project/final_project.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/steve/final_project' since last save.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/addis/Downloads/DLD Final/final_project/final_project.gen/sources_1'.
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'C:/Users/addis/Downloads/DLD Final/final_project/final_project.ip_user_files'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-5713] Board part '' set for the project  is not found. BoardPart property will be unset. Please select board from latest repo build 
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/AMDDesignTools/2026.1/Vivado/data/ip'.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:09 . Memory (MB): peak = 1731.387 ; gain = 249.938
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+add_files -norecurse -scan_for_includes {{C:/Users/addis/Downloads/All Labs/lab_9/lab_9.srcs/sources_1/imports/Downloads/reg3.v}}
+import_files -norecurse {{C:/Users/addis/Downloads/All Labs/lab_9/lab_9.srcs/sources_1/imports/Downloads/reg3.v}}
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\imports\Downloads\reg3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\new\adder16.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\new\adder16.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\new\adder16.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\imports\Downloads\reg3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\new\adder16.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\imports\Downloads\reg3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\imports\Downloads\reg3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\imports\Downloads\reg3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\new\adder16.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\imports\Downloads\reg3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\imports\Downloads\reg3.v:]
+ERROR: [Common 17-180] Spawn failed: The operation completed successfully.
+
+close [ open {C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/new/reg32.v} w ]
+add_files {{C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/new/reg32.v}}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\imports\Downloads\reg3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\new\adder16.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\imports\Downloads\reg3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\imports\Downloads\reg3.v:]
+ERROR: [Common 17-180] Spawn failed: The operation completed successfully.
+
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\imports\Downloads\reg3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\new\adder16.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\imports\Downloads\reg3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\imports\Downloads\reg3.v:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\imports\Downloads\reg3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\new\adder16.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\new\adder16.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\new\adder16.v:]
+ERROR: [Common 17-180] Spawn failed: The operation completed successfully.
+
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\imports\Downloads\reg3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\new\adder16.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\new\reg32.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\new\adder16.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\new\adder16.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\imports\Downloads\reg3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\new\adder16.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\new\reg32.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\new\reg32.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\new\reg32.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\imports\Downloads\reg3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\new\adder16.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\new\reg32.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\imports\Downloads\reg3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\imports\Downloads\reg3.v:]
+ERROR: [Common 17-180] Spawn failed: The operation completed successfully.
+
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\imports\Downloads\reg3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\new\adder16.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\new\reg32.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\new\adder16.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\new\adder16.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\imports\Downloads\reg3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\new\adder16.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\new\reg32.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\new\adder16.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\new\adder16.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\imports\Downloads\reg3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\new\adder16.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\new\reg32.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\imports\Downloads\reg3.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\addis\Downloads\DLD Final\final_project\final_project.srcs\sources_1\imports\Downloads\reg3.v:]
