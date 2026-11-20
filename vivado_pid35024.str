@@ -1824,3 +1824,106 @@ typeControlKey((HResource) null, "adder2.v", 'c'); // ae (adder2.v)
 selectCodeEditor("adder2.v", 304, 337); // ae (adder2.v)
 selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "reg2.v", 4); // m (PlanAheadTabBaseWorkspace_JideTabbedPane)
 selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "adder2.v", 5); // m (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 158 MB. Current time: 11/20/26, 11:29:31 AM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 158 MB. Current time: 11/20/26, 11:30:11 AM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 159 MB. Current time: 11/20/26, 11:30:51 AM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 158 MB. Current time: 11/20/26, 11:31:32 AM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 158 MB. Current time: 11/20/26, 11:32:12 AM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 159 MB. Current time: 11/20/26, 11:32:52 AM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 159 MB. Current time: 11/20/26, 11:33:32 AM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 159 MB. Current time: 11/20/26, 11:34:12 AM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 158 MB. Current time: 11/20/26, 11:34:52 AM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 158 MB. Current time: 11/20/26, 11:35:33 AM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 158 MB. Current time: 11/20/26, 11:36:13 AM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 158 MB. Current time: 11/20/26, 11:36:53 AM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 158 MB. Current time: 11/20/26, 11:37:34 AM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 158 MB. Current time: 11/20/26, 11:38:14 AM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 142 MB. Current time: 11/20/26, 11:38:55 AM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 141 MB. Current time: 11/20/26, 11:39:35 AM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 141 MB. Current time: 11/20/26, 11:40:15 AM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 141 MB. Current time: 11/20/26, 11:40:56 AM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 141 MB. Current time: 11/20/26, 11:41:36 AM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 141 MB. Current time: 11/20/26, 11:42:17 AM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 141 MB. Current time: 11/20/26, 11:42:57 AM EST
+// WARNING: HEventQueue.dispatchEvent() is taking  14557 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 143 MB. Current time: 11/20/26, 11:43:52 AM EST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 7687 ms. Increasing delay to 23061 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 31 ms. Decreasing delay to 2031 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 141 MB. Current time: 11/20/26, 11:44:33 AM EST
+// WARNING: HEventQueue.dispatchEvent() is taking  1297531 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 1297591 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 1297591 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 1297593 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 1297612 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 1297616 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 1297641 ms to process. Increasing delay to 2000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  4616144 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 143 MB. Current time: 11/20/26, 1:23:20 PM EST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 4625127 ms. Increasing delay to 13875381 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 139 MB. Current time: 11/20/26, 1:23:47 PM EST
+// Elapsed time: 6903 seconds
+selectCodeEditor("adder2.v", 152, 364); // ae (adder2.v)
+selectCodeEditor("adder2.v", 263, 193); // ae (adder2.v)
+selectCodeEditor("adder2.v", 161, 117); // ae (adder2.v)
+selectCodeEditor("adder2.v", 138, 104); // ae (adder2.v)
+selectCodeEditor("adder2.v", 230, 211); // ae (adder2.v)
+selectCodeEditor("adder2.v", 157, 160); // ae (adder2.v)
+selectCodeEditor("adder2.v", 205, 159); // ae (adder2.v)
+typeControlKey(null, null, 'z');
+selectCodeEditor("adder2.v", 440, 653); // ae (adder2.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/O.f': 03h:26m:12s
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: The operation completed successfully.  ERROR: [Common 17-180] Spawn failed: The operation completed successfully.  
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/O.f': 03h:26m:14s
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 139 MB. Current time: 11/20/26, 1:24:27 PM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 139 MB. Current time: 11/20/26, 1:25:08 PM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 138 MB. Current time: 11/20/26, 1:25:48 PM EST
+// Elapsed time: 92 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "reg2.v", 4); // m (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("reg2.v", 372, 224); // ae (reg2.v)
+selectCodeEditor("reg2.v", 189, 603); // ae (reg2.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "adder2.v", 5); // m (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/O.f': 03h:27m:51s
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: The operation completed successfully.  ERROR: [Common 17-180] Spawn failed: The operation completed successfully.  
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/O.f': 03h:27m:52s
+selectCodeEditor("adder2.v", 352, 549); // ae (adder2.v)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "reg2.v", 4); // m (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("adderv4.v", 666, 612); // ae (adderv4.v)
+selectCodeEditor("adderv4.v", 473, 748); // ae (adderv4.v)
+selectCodeEditor("adderv4.v", 220, 676); // ae (adderv4.v)
+selectCodeEditor("adderv4.v", 410, 789); // ae (adderv4.v)
+typeControlKey((HResource) null, "adderv4.v", 'c'); // ae (adderv4.v)
+typeControlKey((HResource) null, "adderv4.v", 'c'); // ae (adderv4.v)
+typeControlKey((HResource) null, "reg2.v", 'v'); // ae (reg2.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/O.f': 03h:28m:16s
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 138 MB. Current time: 11/20/26, 1:26:28 PM EST
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/O.f': 03h:28m:18s
+selectCodeEditor("reg2.v", 294, 608); // ae (reg2.v)
+selectCodeEditor("reg2.v", 239, 575); // ae (reg2.v)
+selectCodeEditor("reg2.v", 12, 587); // ae (reg2.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/O.f': 03h:28m:33s
+selectCodeEditor("reg2.v", 443, 545); // ae (reg2.v)
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/O.f': 03h:28m:34s
+// Elapsed time: 13 seconds
+selectCodeEditor("reg2.v", 150, 532); // ae (reg2.v)
+selectCodeEditor("reg2.v", 156, 583); // ae (reg2.v)
+selectCodeEditor("reg2.v", 310, 544); // ae (reg2.v)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 138 MB. Current time: 11/20/26, 1:27:09 PM EST
+selectCodeEditor("reg2.v", 306, 588); // ae (reg2.v)
+selectCodeEditor("reg2.v", 657, 500); // ae (reg2.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/O.f': 03h:29m:04s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/O.f': 03h:29m:06s
