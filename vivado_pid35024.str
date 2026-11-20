@@ -1927,3 +1927,43 @@ selectCodeEditor("reg2.v", 657, 500); // ae (reg2.v)
 // Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/O.f': 03h:29m:04s
 // TclEventType: DG_GRAPH_GENERATED
 // Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/O.f': 03h:29m:06s
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 138 MB. Current time: 11/20/26, 1:27:50 PM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 138 MB. Current time: 11/20/26, 1:28:30 PM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 140 MB. Current time: 11/20/26, 1:29:10 PM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 139 MB. Current time: 11/20/26, 1:29:50 PM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 140 MB. Current time: 11/20/26, 1:30:30 PM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 140 MB. Current time: 11/20/26, 1:31:10 PM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 140 MB. Current time: 11/20/26, 1:31:50 PM EST
+// Elapsed time: 278 seconds
+selectCodeEditor("reg2.v", 317, 347); // ae (reg2.v)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 140 MB. Current time: 11/20/26, 1:32:30 PM EST
+// Elapsed time: 66 seconds
+selectCodeEditor("reg2.v", 244, 156); // ae (reg2.v)
+selectCodeEditor("reg2.v", 434, 286); // ae (reg2.v)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "adder2.v", 5); // m (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 140 MB. Current time: 11/20/26, 1:33:10 PM EST
+// Elapsed time: 11 seconds
+selectCodeEditor("adder2.v", 782, 349); // ae (adder2.v)
+selectCodeEditor("adder2.v", 488, 429); // ae (adder2.v)
+selectCodeEditor("adder2.v", 463, 635); // ae (adder2.v)
+selectCodeEditor("adder2.v", 985, 456); // ae (adder2.v)
+selectCodeEditor("adder2.v", 375, 205); // ae (adder2.v)
+selectCodeEditor("adder2.v", 433, 666); // ae (adder2.v)
+selectCodeEditor("adder2.v", 256, 427); // ae (adder2.v)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 139 MB. Current time: 11/20/26, 1:33:51 PM EST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/O.f': 03h:36m:19s
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: The operation completed successfully.  
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 140 MB. Current time: 11/20/26, 1:34:31 PM EST
+// Elapsed time: 57 seconds
+selectCodeEditor("adder2.v", 1173, 530); // ae (adder2.v)
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/O.f': 03h:36m:21s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, reg32 (reg32.v)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, reg32 (reg32.v)]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, final (final.v)]", 3, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, final (final.v)]", 3, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, final (final.v)]", 3, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 141 MB. Current time: 11/20/26, 1:35:11 PM EST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,226 MB. GUI used memory: 140 MB. Current time: 11/20/26, 1:35:52 PM EST
