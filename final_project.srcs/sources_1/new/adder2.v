@@ -2,7 +2,6 @@ module adder2(
 input [1:0] A,
 input [1:0] B,
 input c_in,
-input RST,
 output [1:0] S,
 output c_out
 );
@@ -24,7 +23,4 @@ full_adder ADDER1(
 .c_out(c_out)
 );
 
-not NOTR(notr, RST);
-and S0OUT(S[0], ts[0], notr);
-and S1OUT(S[1], ts[1], notr);
 endmodule

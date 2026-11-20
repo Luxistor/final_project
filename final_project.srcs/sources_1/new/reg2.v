@@ -23,6 +23,7 @@ module reg2(
     input [1:0] in_D,
     input in_EN,
     input in_CLK,
+    input RST,
     output [1:0] out_Q
     );
    
@@ -40,5 +41,11 @@ dff_en dff0 (
 	.in_CLK(in_CLK),
 	.in_EN(in_EN)
 );
+
+wire notr;
+
+not NOTR(notr, RST);
+and S0OUT(out_Q[0], in_D[0], notr);
+and S1OUT(out_Q[1], in_D[1], notr);
 
 endmodule
