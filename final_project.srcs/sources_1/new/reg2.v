@@ -28,24 +28,25 @@ module reg2(
     );
    
  
+wire not_r, en_or_rst;
+wire [1:0] d_gated;
+
+not not0(not_r, RST);
+and and0[1:0](d_gated, in_D, not_r);
+or  or0(en_or_rst, in_EN, RST);
+
 dff_en dff1 (
 	.data_out(out_Q[1]),
-	.in_D(in_D[1]),
+	.in_D(d_gated[1]),
 	.in_CLK(in_CLK),
-	.in_EN(in_EN)
+	.in_EN(en_or_rst)
 );
 
 dff_en dff0 (
 	.data_out(out_Q[0]),
-	.in_D(in_D[0]),
+	.in_D(d_gated[0]),
 	.in_CLK(in_CLK),
-	.in_EN(in_EN)
+	.in_EN(en_or_rst)
 );
-
-wire notr;
-
-not NOTR(notr, RST);
-and S0OUT(out_Q[0], in_D[0], notr);
-and S1OUT(out_Q[1], in_D[1], notr);
 
 endmodule

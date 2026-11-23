@@ -137,7 +137,7 @@ full_adder ADDER15(
 .c_out(c_out)
 );
 
-full_adder ADDER7(
+full_adder ADDER16(
 .A(A[7]),
 .B(B[7]),
 .c_in(ic_out[6]),

@@ -5,21 +5,19 @@ input c_in,
 output [1:0] S,
 output c_out
 );
-wire notr;
 wire ic_out;
-wire [1:0] ts;
 full_adder ADDER0(
 .A(A[0]),
 .B(B[0]),
 .c_in(c_in),
-.S(ts[0]),
+.S(S[0]),
 .c_out(ic_out)
 );
 full_adder ADDER1(
 .A(A[1]),
 .B(B[1]),
 .c_in(ic_out),
-.S(ts[1]),
+.S(S[1]),
 .c_out(c_out)
 );
 
