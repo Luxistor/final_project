@@ -1,0 +1,291 @@
+
+*** Running vivado
+    with args -log final_proj.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source final_proj.tcl
+
+
+INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detected. Your current license is active and will expire on 10-sep-2027.
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Mon Nov 23 09:52:30 2026
+# Process ID         : 39880
+# Current directory  : C:/Users/addis/Downloads/DLD Final/final_project/final_project.runs/synth_1
+# Command line       : vivado.exe -log final_proj.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source final_proj.tcl
+# Log file           : C:/Users/addis/Downloads/DLD Final/final_project/final_project.runs/synth_1/final_proj.vds
+# Journal file       : C:/Users/addis/Downloads/DLD Final/final_project/final_project.runs/synth_1\vivado.jou
+# Running On         : Addis-Zenbook
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen AI 9 HX 370 w/ Radeon 890M           
+# CPU Frequency      : 1996 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 24
+# Host memory        : 33413 MB
+# Swap memory        : 7516 MB
+# Total Virtual      : 40929 MB
+# Available Virtual  : 8927 MB
+#-----------------------------------------------------------
+
+****** Vivado v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Mon Nov 23 09:52:30 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source final_proj.tcl -notrace
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 584.262 ; gain = 266.633
+Command: synth_design -top final_proj -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Vivado_Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Vivado_Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Designutils 20-5008] Incremental synthesis strategy default
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+INFO: [Synth 8-7075] Helper process launched with PID 38728
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1346.348 ; gain = 579.613
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'Cin', assumed default net type 'wire' [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/new/full_adder.v:12]
+INFO: [Synth 8-11241] undeclared symbol 'Cout', assumed default net type 'wire' [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/new/full_adder.v:14]
+WARNING: [Synth 8-9448] extra semicolon in $unit (global) scope [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/new/reg16.v:31]
+INFO: [Synth 8-6157] synthesizing module 'final_proj' [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/new/final.v:3]
+INFO: [Synth 8-6157] synthesizing module 'debouncer' [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/new/debouncer.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'debouncer' (0#1) [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/new/debouncer.v:1]
+WARNING: [Synth 8-7071] port 'PB_state' of module 'debouncer' is unconnected for instance 'debouncer0' [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/new/final.v:14]
+WARNING: [Synth 8-7071] port 'PB_down' of module 'debouncer' is unconnected for instance 'debouncer0' [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/new/final.v:14]
+WARNING: [Synth 8-7023] instance 'debouncer0' of module 'debouncer' has 5 connections declared, but only 3 given [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/new/final.v:14]
+WARNING: [Synth 8-7071] port 'PB_state' of module 'debouncer' is unconnected for instance 'debouncer1' [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/new/final.v:21]
+WARNING: [Synth 8-7071] port 'PB_down' of module 'debouncer' is unconnected for instance 'debouncer1' [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/new/final.v:21]
+WARNING: [Synth 8-7023] instance 'debouncer1' of module 'debouncer' has 5 connections declared, but only 3 given [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/new/final.v:21]
+INFO: [Synth 8-6157] synthesizing module 'reg2' [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/new/reg2.v:22]
+INFO: [Synth 8-6157] synthesizing module 'dff_en' [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/new/dff_en.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'dff_en' (0#1) [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/new/dff_en.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'reg2' (0#1) [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/new/reg2.v:22]
+INFO: [Synth 8-6157] synthesizing module 'adder2' [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/new/adder2.v:1]
+INFO: [Synth 8-6157] synthesizing module 'full_adder' [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/new/full_adder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'full_adder' (0#1) [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/new/full_adder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'adder2' (0#1) [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/new/adder2.v:1]
+WARNING: [Synth 8-7071] port 'c_out' of module 'adder2' is unconnected for instance 'state_incrementer' [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/new/final.v:38]
+WARNING: [Synth 8-7023] instance 'state_incrementer' of module 'adder2' has 5 connections declared, but only 4 given [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/new/final.v:38]
+INFO: [Synth 8-6157] synthesizing module 'decoder' [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/imports/Additional_components/decoder.v:1]
+	Parameter NUM_SEL bound to: 2 - type: integer 
+	Parameter NUM_OUTPUT bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'decoder' (0#1) [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/imports/Additional_components/decoder.v:1]
+INFO: [Synth 8-6157] synthesizing module 'reg3' [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/new/reg16.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'reg3' (0#1) [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/new/reg16.v:2]
+INFO: [Synth 8-6157] synthesizing module 'reg16' [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/imports/Downloads/reg3.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'reg16' (0#1) [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/imports/Downloads/reg3.v:22]
+INFO: [Synth 8-6157] synthesizing module 'alu' [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/new/alu.v:22]
+INFO: [Synth 8-6157] synthesizing module 'adder16' [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/new/adder16.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'adder16' (0#1) [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/new/adder16.v:1]
+INFO: [Synth 8-6157] synthesizing module 'multibit_mux' [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/new/mux.v:23]
+	Parameter NUM_INPUTS bound to: 8 - type: integer 
+	Parameter BUS_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'multibit_mux' (0#1) [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/new/mux.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (0#1) [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/new/alu.v:22]
+INFO: [Synth 8-6157] synthesizing module 'multibit_mux__parameterized0' [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/new/mux.v:23]
+	Parameter NUM_INPUTS bound to: 2 - type: integer 
+	Parameter BUS_WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'multibit_mux__parameterized0' (0#1) [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/new/mux.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'final_proj' (0#1) [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/new/final.v:3]
+WARNING: [Synth 8-3848] Net c_out in module/entity full_adder does not have driver. [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/new/full_adder.v:5]
+WARNING: [Synth 8-3848] Net Cin in module/entity full_adder does not have driver. [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/sources_1/new/full_adder.v:12]
+WARNING: [Synth 8-7129] Port c_out in module full_adder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port c_in in module full_adder is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1466.180 ; gain = 699.445
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1466.180 ; gain = 699.445
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1466.180 ; gain = 699.445
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1466.180 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/constrs_1/imports/Downloads/Basys3_constraints_master.xdc]
+Finished Parsing XDC File [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/constrs_1/imports/Downloads/Basys3_constraints_master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/addis/Downloads/DLD Final/final_project/final_project.srcs/constrs_1/imports/Downloads/Basys3_constraints_master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/final_proj_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/final_proj_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1520.938 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1521.051 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1521.051 ; gain = 754.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1521.051 ; gain = 754.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1521.051 ; gain = 754.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1521.051 ; gain = 754.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input     16 Bit         XORs := 2     
+	   3 Input      1 Bit         XORs := 36    
++---Registers : 
+	                1 Bit    Registers := 44    
++---Muxes : 
+	   2 Input   16 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1521.051 ; gain = 754.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1672.285 ; gain = 905.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1672.285 ; gain = 905.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1681.859 ; gain = 915.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1957.453 ; gain = 1190.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1957.453 ; gain = 1190.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1957.453 ; gain = 1190.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1957.453 ; gain = 1190.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1957.453 ; gain = 1190.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1957.453 ; gain = 1190.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |IBUF |    16|
+|2     |OBUF |    16|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1957.453 ; gain = 1190.719
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:28 . Memory (MB): peak = 1957.453 ; gain = 1135.848
+Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1957.453 ; gain = 1190.719
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1966.648 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1970.316 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: dd957906
+INFO: [Common 17-83] Releasing license: Vivado_Synthesis
+42 Infos, 23 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 1970.316 ; gain = 1386.055
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1970.316 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/addis/Downloads/DLD Final/final_project/final_project.runs/synth_1/final_proj.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file final_proj_utilization_synth.rpt -pb final_proj_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 23 09:53:19 2026...
